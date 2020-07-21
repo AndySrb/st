@@ -81,13 +81,17 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
-/* bg opacity */
-float alpha = 0.7;
 
 /* Terminal colors (16 first used in escape sequence) */
 
+
+
 // Fire Wool Theme
-	//static const char *colorname[] = {
+//
+/* bg opacity */
+//float alpha = 0.7;
+
+//static const char *colorname[] = {
 	//"#060101", /* hard contrast: #1d2021 / soft contrast: #32302f */
 	//"#B14E1A",
 	//"#DA6215",
@@ -113,6 +117,8 @@ float alpha = 0.7;
 	//"#ebdbb2", /* 259 -> fg */
 //};
 	
+// Theme Apprentice
+float alpha = 0.9;
 static const char *colorname[] = {
 	"#060101", /* hard contrast: #1d2021 / soft contrast: #32302f */
 	"#1C1C1C",
