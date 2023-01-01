@@ -81,69 +81,36 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
+/* bg opacity */
+float alpha = 0.7;
 
 /* Terminal colors (16 first used in escape sequence) */
-
-
-
-// Fire Wool Theme
-//
-/* bg opacity */
-//float alpha = 0.7;
-
-//static const char *colorname[] = {
-	//"#060101", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	//"#B14E1A",
-	//"#DA6215",
-	//"#B37244",
-	//"#F09133",
-	//"#EDAA4B",
-	//"#F6D067",
-	//"#FCF6BF",
-	//"#696666",
-	//"#B14E1A",
-	//"#DA6215",
-	//"#B37244",
-	//"#F09133",
-	//"#EDAA4B",
-	//"#F6D067",
-	//"#FCF6BF",
-	//[255] = 0,
-	///* more colors can be added after 255 to use with DefaultXX */
-	//"#add8e6", /* 256 -> cursor */
-	//"#555555", /* 257 -> rev cursor*/
-	////"#282828", /* 258 -> bg */
-	//"black", /* 258 -> bg */
-	//"#ebdbb2", /* 259 -> fg */
-//};
-	
-// Theme Apprentice
-float alpha = 0.9;
 static const char *colorname[] = {
 	"#060101", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#1C1C1C",
-	"#AF5F5F",
-	"#5F875F",
-	"#87875F",
-	"#5F87AF",
-	"#5F8787",
-	"#6C6C6C",
-	"#444444",
-	"#FF8700",
-	"#87AF87",
-	"#FFFFAF",
-	"#8FAFD7",
-	"#8787AF",
-	"#5FAFAF",
-	"#FFFFFF",
+	"#B14E1A",
+	"#DA6215",
+	"#B37244",
+	"#F09133",
+	"#EDAA4B",
+	"#F6D067",
+	"#FCF6BF",
+	"#696666",
+	"#B14E1A",
+	"#DA6215",
+	"#B37244",
+	"#F09133",
+	"#EDAA4B",
+	"#F6D067",
+	"#FCF6BF",
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#add8e6", /* 256 -> cursor */
 	"#555555", /* 257 -> rev cursor*/
 	//"#282828", /* 258 -> bg */
-	"#262626", /* 258 -> bg */
-	"#BCBCBC", /* 259 -> fg */
+	"black", /* 258 -> bg */
+	"#ebdbb2", /* 259 -> fg */
 };
+
 
 /*
  * Default colors (colorname index)
